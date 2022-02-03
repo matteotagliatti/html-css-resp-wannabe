@@ -76,13 +76,18 @@ img {
 
 @media screen and (max-width: 420px) {
   body {
-    background-color: #f2f2cd;
+    background-color: white;
   }
 
   .row {
     width: 100%;
-    margin-top: 2rem;
-    padding-top: 1rem;
+    margin-top: 0rem;
+    padding: 1rem 0;
+  }
+
+  #why,
+  #lezioni {
+    background-color: #f2f2cd;
   }
 
   #lezioni .row > .left,
@@ -103,14 +108,6 @@ img {
   #steps .row > .central,
   #steps .row > .right {
     margin-top: 2rem;
-  }
-
-  #steps .row > .right {
-    margin-bottom: 2rem;
-  }
-
-  #why {
-    background-color: #f2f2cd;
   }
 
   #why .row img {
