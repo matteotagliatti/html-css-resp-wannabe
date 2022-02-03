@@ -72,6 +72,54 @@ img {
   clear: both;
 }
 
+/* BONUS Tablet */
+
+@media screen and (max-width: 768px) {
+  img {
+    height: 140px;
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 0rem;
+    padding: 1rem 0;
+  }
+
+  #steps {
+    background-color: #f2f2cd;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    width: calc(50% - 2rem);
+    margin: 0 1rem;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right,
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: calc(33% - 2rem);
+    margin: 0 1rem;
+  }
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    float: left;
+  }
+
+  #why .row img {
+    height: 80px;
+  }
+
+  #why hr {
+    display: none;
+  }
+}
+
 /* Mobile */
 
 @media screen and (max-width: 420px) {
