@@ -113,6 +113,10 @@ img {
     background-color: #f2f2cd;
   }
 
+  #why .row img {
+    height: 140px;
+  }
+
   #why .row > .first,
   #why .row > .second,
   #why .row > .third {
