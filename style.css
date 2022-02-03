@@ -81,7 +81,8 @@ img {
 
   .row {
     width: 100%;
-    margin-top: 0;
+    margin-top: 2rem;
+    padding-top: 1rem;
   }
 
   #lezioni .row > .left,
@@ -99,7 +100,22 @@ img {
     width: 100%;
   }
 
+  #steps .row > .central,
+  #steps .row > .right {
+    margin-top: 2rem;
+  }
+
+  #steps .row > .right {
+    margin-bottom: 2rem;
+  }
+
   #why {
     background-color: #f2f2cd;
+  }
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    margin-top: 2rem;
   }
 }
