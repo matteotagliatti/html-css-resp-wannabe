@@ -134,9 +134,14 @@ img {
     background-color: #f2f2cd;
   }
 
+  #steps {
+    background-color: white;
+  }
+
   #lezioni .row > .left,
   #lezioni .row > .right {
     width: 100%;
+    margin: 0;
   }
 
   #lezioni .row > .right {
@@ -147,6 +152,7 @@ img {
   #steps .row > .central,
   #steps .row > .right {
     width: 100%;
+    margin: 0;
   }
 
   #steps .row > .central,
@@ -155,12 +161,18 @@ img {
   }
 
   #why .row img {
-    height: 140px;
+    height: 80px;
   }
 
   #why .row > .first,
   #why .row > .second,
   #why .row > .third {
-    margin-top: 2rem;
+    width: 100%;
+    margin: 2rem 0 0 0;
+    float: unset;
+  }
+
+  #why hr {
+    display: block;
   }
 }
